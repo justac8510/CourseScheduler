@@ -15,9 +15,9 @@ import java.sql.SQLException;
  */
 public class DBConnection {
     private static Connection connection;
-    private static final String user = "java";
-    private static final String password = "java";
-    private static final String database = "jdbc:derby://localhost:1527/CourseSchedulerDBArvinChenghkc5416";
+    private static final String user = "";
+    private static final String password = "";
+    private static final String database = "";
 
     public static Connection getConnection()
     {
